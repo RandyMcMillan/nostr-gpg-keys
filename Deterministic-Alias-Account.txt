@@ -1,0 +1,9 @@
+{
+  "id": "dab5a4ce88d2ce4203d2e0d77577dcb4736a69a0a106cdf04a40b7f9dadde4a7",
+  "pubkey": "75ca0a657164d6b083337b85e83f37e9b4782175bedf868b30cffd5141471c17",
+  "created_at": 1661128879,
+  "kind": 1,
+  "tags": [],
+  "content": "Deterministic-Alias-Account",
+  "sig": "3203118a877146d78ec17fc05819cb366e7aaa6198e4335a1e6a50465a435084111a70f8f236bfbed92e6687bd5b21df35a8dcd992a7471a7878fae1f507be6e"
+}

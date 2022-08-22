@@ -1,0 +1,9 @@
+{
+  "id": "342162d6d46c826b2046f3add293d79950e7d958847d9f048bba3cf88c8f3df4",
+  "pubkey": "8588bf3b6c4377ca58b088b62d6065bfaef8374cfb4d0a3c100a7aea70942249",
+  "created_at": 1661128975,
+  "kind": 1,
+  "tags": [],
+  "content": "GPG-Nostr-Demo-Account",
+  "sig": "2ce1a7ee3ac07385ce58d38dbe57f5fa48e62e016f616d2dc25f57326b9999c7dd68697a636b0984a6c34fc343b43ad943910a5042978fede3ed7c48f0f40204"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4fd7cee9e23fced8fc8c7a94f555c5ce794388036bc0043ab6ddd8869ee64531",
+  "pubkey": "6cf0907bfd76870ef2fd5a026bf4ff6fcba69eca1f382c4a80a47eaf2dfab16a",
+  "created_at": 1661128742,
+  "kind": 1,
+  "tags": [],
+  "content": "Deterministic-Alias-of-an-Alias",
+  "sig": "bd98e2c17316eb9c4787670f74d6a6b14c4d59c6ba804804b1cd874681783cbd3f35775b392516ff97ca4c7ebf2206adafc4ee2f6cc657b41aa1d6043cddb1e5"
+}
