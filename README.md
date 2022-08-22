@@ -8,7 +8,9 @@
 gpg --full-generate-key
 ```
 <center>
+
 ![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/full-generate-key.png?raw=true)
+
 </center>
 <center>
 
