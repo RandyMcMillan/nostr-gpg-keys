@@ -5,6 +5,14 @@
 ```
 gpg --full-generate-key
 ```
+<center>
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/full-generate-key.png?raw=true)
+</center>
+<center>
+
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/generate-identity.png?raw=true)
+
+</center>
 
 ---
 
@@ -15,6 +23,17 @@ gpg --export-secret-keys -a 625BB88FB2862FE90D647B9C2D2B78A516B54645 > 625BB88FB
 ```
 
 #### Edit the file: (with your preferred editor - show invisibles and be sure to NOT add any invisible characters!)
+
+<center>
+
+
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/edit-file.png?raw=true)
+
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/key-material-top.png?raw=true)
+
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/key-material-bottom.png?raw=true)
+
+</center>
 
 
 ##### We remove non-key material from the file:
@@ -29,17 +48,23 @@ vim 625BB88FB2862FE90D647B9C2D2B78A516B54645.private.key.asc
 cat 625BB88FB2862FE90D647B9C2D2B78A516B54645.private.key.modified.asc
 ```
 
+---
+
 #### Create SHA256 hash of the key material:
 
 ##### Pipe the key material into the `shasum -a 256` function
+
 ```
 cat 625BB88FB2862FE90D647B9C2D2B78A516B54645.private.key.modified.asc | shasum -a 256
 ```
 
 #### The SHA256 hash of the key material:
+
 ```
 e5299059462a7ab1811bb6f32397a8994b3a491047d37f3da8a9de533baebf21
 ```
+
+---
 
 #### Log into a Nostr client: [https://nostr.rocks](https://nostr.rocks)
 
@@ -100,7 +125,7 @@ OR
 nsec1wn2qheuutz44dgype4thxhkm7dpxccq2jg7tgg6dcahnhvjwyr5qsj9hwp
 ```
 
-### Again: Deterministic-Alias-of-an-Alias
+### Deterministic-Alias-of-an-Alias
 
 ```
 cat 74d40be79c58ab56a081cd57735edbf3426c600a923cb4234dc76f3bb24e20e8.alias.txt | shasum -a 256  | sed 's/  -//'
