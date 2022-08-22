@@ -1,3 +1,5 @@
+![](https://github.com/RandyMcMillan/nostr-gpg-keys/blob/master/images/Demo-Banner.png?raw=true)
+
 ## NOSTR Identity from an OPENPGP private key
 
 #### Generate a gpg private key: (skip this is you have one)
